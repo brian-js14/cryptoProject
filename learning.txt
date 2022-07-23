@@ -34,5 +34,10 @@ Saludar.propTypes = {
 };
 
 Sistema de navegación:
-React Navigation => validar
+
+Navigation.Drawer => crear menú desplegable
+Navigation.Stack => 
+Navigation.Tap => Para crear un Bottom Menu.
+
+
 

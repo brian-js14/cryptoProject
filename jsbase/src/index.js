@@ -12,3 +12,12 @@ const randomString = () => {
 };
 
 module.exports = randomString;
+
+const reverseString2 = (str) => {
+  return new Promise((resolve, rejeact) => {
+    if (!str) {
+      rejeact(Error("Error"));
+    }
+    resolve(str.split("").reverse().join(""));
+  });
+};
