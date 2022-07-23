@@ -1,1 +1,1 @@
-# crytoProject
+# cryptoProject

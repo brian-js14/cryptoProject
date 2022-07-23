@@ -1,0 +1,38 @@
+Curso React Native:
+rnc => Se instala un componente básico React
+Material Icon Theme => install, le da un ícono a cada tipo de archivo
+Night Owl => Tema en azul chevere
+Prettier => acomoda la estructura del código
+assets => se almacenan todas las imágenes de la app
+node_modules => todos los módulos necesarios para la ejecución
+package => maneja los comandos, scripts y dependencias del proyecto
+yarn.lock => todas las dependencias y sus versiones
+Babel => configuración de Babel
+
+App.js => es la ventana principal de la aplicación
+    <>Text</> => esta manera se definen los textos en la app
+
+-------------------------------------------------------------------------------------------
+Creando componentes:
+un componente solo devuelve una cosa, si queremos devolver más de una cosa se debe importar un view
+Toda aplicación y componentes debe llevar:
+    import React from "react";
+    import { TextInput, Button, Text, View } from "react-native"; // Este es un ejemplo de como puede ir
+
+-Los componentes se declaran de la siguiente manera:
+export default function Saludar(props) {} --> importante que el nombre de la función, la primera letra debe ser en mayúsculas
+para poder definir propiedades por defecto se debe enviar nombreFuncion.defaultProps {
+    atributos, ej:
+    nombre: "",
+    apellido: ""
+}
+
+PropTypes => se definen métodos obligatorios
+Saludar.propTypes = {
+  firstname: PropTypes.string.isRequired,
+  lastname: PropTypes.string,
+};
+
+Sistema de navegación:
+React Navigation => validar
+
